@@ -1,0 +1,19 @@
+
+// dany01.txt
+//
+// From Dany's site http://www.sudokusolver.co.nr/ from a posted comment.
+//
+// 2011 Nov 02
+
+  1 - 3   - 5 -   7 - 9
+  - - -   - - -   - - -
+  - 2 -   4 - 6   - 8 -
+                      
+  - - -   - - -   - - -
+  - - 6   - 4 -   2 - -
+  - - -   - - -   - - -
+                      
+  - 9 -   7 - 5   - 3 -
+  - - -   - - -   - - -
+  2 - 4   - 6 -   8 - 1
+

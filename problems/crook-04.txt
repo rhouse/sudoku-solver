@@ -1,0 +1,23 @@
+// crook-04.txt
+//
+// From p466, Figure 11:  The Mepham diabolical.
+//
+// From A Pencil-and-Paper Algorithm for Solving Sudoku Puzzles by J.F. Crook,
+// Notices of the AMS, Vol. 56, No. 4 (April 2009), available at
+// http://www.ams.org/notices/200904/tx090400460p.pdf
+//
+// My sudoku.c produces the same answer as on p468 of the article. 
+//
+
+  - 9 -   7 - -   8 6 -
+  - 3 1   - - 5   - 2 -
+  8 - 6   - - -   - - -
+                      
+  - - 7   - 5 -   - - 6
+  - - -   3 - 7   - - -
+  5 - -   - 1 -   7 - -
+                      
+  - - -   - - -   1 - 9
+  - 2 -   6 - -   3 5 -
+  - 5 4   - - 8   - 7 -
+

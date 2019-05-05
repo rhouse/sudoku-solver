@@ -1,0 +1,8 @@
+./sudoku problems/crook-01.txt >test-01.sol
+./sudoku problems/20070708.txt >test-02.sol
+diff test-01.sol test-01.solution
+diff test-02.sol test-02.solution
+rm test-01.sol
+rm test-02.sol
+
+

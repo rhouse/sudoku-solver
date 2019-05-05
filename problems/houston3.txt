@@ -1,0 +1,19 @@
+// houston3.txt
+//
+// From Southwest's in-flight magazine on the way home from Houston.
+//
+// Rated:  Medium
+//
+// 2007 Sep 9
+
+  5 - -   - 8 -   - - 7
+  - 2 -   - - -   - 9 -
+  - - -   1 5 3   - - -
+                      
+  - - 9   - - -   1 - -
+  7 - 2   - 3 -   8 - 4
+  - - 8   - - -   6 - -
+                      
+  - - -   7 1 4   - - -
+  - 7 -   - - -   - 6 -
+  3 - -   - 9 -   - - 1

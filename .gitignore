@@ -1,0 +1,11 @@
+# Backup files
+###############
+
+*.bak
+*~
+
+# Other files and directories
+##############################
+
+xxx
+

@@ -1,0 +1,21 @@
+// murty-01.txt
+//
+// From p708, Figure 2, a puzzle with 17 entries.
+//
+// From Sudoku Squares and Chromatic Polynomials by Agnes M. Herzberg and
+// M. Ram Murty, Notices of the AMS, Vol. 54, No. 6 (June/July 2007), 
+// available at http://www.ams.org/notices/200706/tx070600708p.pdf
+//
+
+  - - -   - - -   - 1 -
+  4 - -   - - -   - - -
+  - 2 -   - - -   - - -
+                      
+  - - -   - 5 -   4 - 7
+  - - 8   - - -   3 - -
+  - - 1   - 9 -   - - -
+                      
+  3 - -   4 - -   2 - -
+  - 5 -   1 - -   - - -
+  - - -   8 - 6   - - -
+

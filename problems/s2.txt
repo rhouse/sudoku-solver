@@ -1,0 +1,17 @@
+// s2.txt
+//
+// Obtained from http://www.computeractive.co.uk/spotlight/sudukoindex
+//
+// 2006 Feb 19
+
+  9 - -   - 3 -   - - -
+  3 4 -   - - -   7 - 5
+  - 2 -   - 1 -   - 6 -
+                      
+  5 - -   8 - -   - - 6
+  4 - 9   - - -   - 7 -
+  - 1 3   5 7 -   2 - -
+                      
+  - 6 -   - - 3   8 - 4
+  - - 4   1 6 2   - 5 -
+  - - -   - - -   - - -

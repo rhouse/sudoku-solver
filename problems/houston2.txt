@@ -1,0 +1,19 @@
+// houston2.txt
+//
+// From Southwest's in-flight magazine on the way home from Houston.
+//
+// Rated:  Easy
+//
+// 2007 Sep 9
+
+  - 5 -   - - 8   - - -
+  - 4 -   - 7 -   3 - -
+  - 6 -   2 - -   - 9 -
+                      
+  6 1 8   - 3 -   - - 5
+  - - -   8 - 7   - - -
+  7 - -   - 5 -   2 6 8
+                      
+  - 9 -   - - 3   - 1 -
+  - - 4   - 8 -   - 5 -
+  - - -   5 - -   - 4 -

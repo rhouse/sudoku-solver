@@ -1,0 +1,78 @@
+// hard-02.txt
+//
+// From http://www.sudokusolver.co.nr/
+//
+// Top 10 Hardest Ever Solved-Sudoku:  #2
+//
+// Solved in 736,945 tries - with 736,881 wrong steps
+// (within 261266 milli seconds = ~261 sec = ~4.4 min)
+//
+// Monday, November 10, 2008 5:39:49 AM
+//
+// My sudoku solver finds a solution in 19 seconds.  No preprocessing 
+// optimizations are available, and the number of unstackings is 20,411,252.
+//
+// cat /proc/cpuinfo shows this processor:
+//
+//     Intel(R) Core(TM)2 Quad CPU    Q9550  @ 2.83GHz
+//
+// There are 4 cores, but no threading or other multiprocessing is done by 
+// the program, so only 1 core is doing the work.
+//
+// Here is the solution found, which is identical to the solution found by the 
+// website.
+//
+//  9 4 6   5 1 3   7 2 8 
+//  5 2 1   7 9 8   6 4 3 
+//  8 3 7   2 6 4   5 1 9 
+//
+//  3 6 4   8 5 9   2 7 1 
+//  2 8 5   6 7 1   3 9 4 
+//  7 1 9   3 4 2   8 5 6 
+//
+//  4 7 2   9 3 6   1 8 5 
+//  1 5 3   4 8 7   9 6 2 
+//  6 9 8   1 2 5   4 3 7 
+//
+//statistics
+//  original board
+//    number of occupied squares:         17
+//    number of empty squares:            64
+//    total number of squares:            81
+//    sum of no. candidates              299
+//  preprocessing
+//    number of only-one candidates:       0
+//    number of row optimizations:         3
+//    number of column optimizations:      1
+//    number of subsquare optimizations:   0
+//    total number of optimizations:       4
+//  after optimization
+//    number of occupied squares:         21
+//    number of empty squares:            60
+//    total number of squares:            81
+//    sum of no. candidates              274
+//  backtracking
+//    number of unstackings:      20,411,252
+//
+// Note that this problem is very similar to the "hardest ever" #1.  It has 
+// four fewer initial placements, but these are quickly found by the pre-
+// processing, and from that point on it looks like the problems are the same.
+//
+// A question:  Why does the website take twice as long to solve #2 as #1?  
+// Perhaps the server is doing a lot of other work, so the solution times are 
+// not really accurate?
+//
+// Here is the initial problem:
+
+  - - -   - - 3   7 - -
+  5 2 -   - - -   - - -
+  8 - -   - - -   - - -
+                      
+  - 6 -   8 5 -   - - -
+  - - -   - - -   3 9 -
+  - - -   - 4 -   - - -
+                      
+  4 - -   - - -   - 8 5
+  - - 3   - - 7   - - -
+  - - -   1 - -   - - -
+

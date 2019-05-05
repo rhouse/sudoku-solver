@@ -1,0 +1,68 @@
+
+//N=4
+
+  9 A - -   - - - -   D - 3 5   - - 1 - 
+  3 - - 8   E 9 6 -   - - F B   - 4 - - 
+  B - - E   - 0 - A   - - 4 -   - - - D 
+  7 - 0 F   2 4 - -   - 6 - -   9 - B - 
+
+  - F - -   7 - 1 -   A - B -   - - 5 - 
+  0 7 E -   - - 4 8   1 - 5 C   - - 6 2 
+  - - - 6   9 A - -   - - - -   B - E 7 
+  2 - - C   - E 5 -   6 - - -   A - - 8 
+
+  E - - 7   - - - 3   - 4 A -   5 - - 6 
+  5 9 - 1   - - - -   - - C 0   7 - - - 
+  C B - -   5 D - E   9 7 - -   - 3 A 0 
+  - D - -   - 8 - 7   - 3 - E   - - C - 
+
+  - 0 - 5   - - 8 -   - - 1 3   2 F - E 
+  D - - -   - F - -   0 - 9 -   C - - B 
+  - - C -   0 5 - -   - 2 D 8   1 - - 9 
+  - 8 - -   3 2 - D   - - - -   - - 0 5 
+
+
+
+//N=4
+
+  9 A 4 2   8 7 B F   D 0 3 5   E 6 1 C 
+  3 C D 8   E 9 6 5   2 1 F B   0 4 7 A 
+  B 5 6 E   1 0 3 A   7 C 4 9   F 2 8 D 
+  7 1 0 F   2 4 D C   E 6 8 A   9 5 B 3 
+
+  8 F 9 D   7 C 1 6   A E B 2   3 0 5 4 
+  0 7 E A   B 3 4 8   1 F 5 C   D 9 6 2 
+  1 4 5 6   9 A F 2   3 8 0 D   B C E 7 
+  2 3 B C   D E 5 0   6 9 7 4   A 1 F 8 
+
+  E 2 8 7   C 1 0 3   B 4 A F   5 D 9 6 
+  5 9 3 1   4 6 A B   8 D C 0   7 E 2 F 
+  C B F 4   5 D 2 E   9 7 6 1   8 3 A 0 
+  6 D A 0   F 8 9 7   5 3 2 E   4 B C 1 
+
+  4 0 7 5   6 B 8 9   C A 1 3   2 F D E 
+  D E 2 3   A F 7 1   0 5 9 6   C 8 4 B 
+  A 6 C B   0 5 E 4   F 2 D 8   1 7 3 9 
+  F 8 1 9   3 2 C D   4 B E 7   6 A 0 5 
+
+statistics
+  original board
+    number of occupied squares:        114
+    number of empty squares:           142
+    total number of squares:           256
+    sum of no. candidates              552
+    candidates/empty square            3.9
+  preprocessing
+    number of only-one candidates:     109
+    number of row optimizations:        33
+    number of column optimizations:      0
+    number of subsquare optimizations:   0
+    total number of optimizations:     142
+  after optimization
+    number of occupied squares:        256
+    number of empty squares:             0
+    total number of squares:           256
+    sum of no. candidates                0
+    candidates/empty square            0.0
+  backtracking
+    number of unstackings:               0

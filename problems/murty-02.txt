@@ -1,0 +1,23 @@
+// murty-02.txt
+//
+// From p711, Figure 3, a puzzle with exactly two solutions.
+//
+// From Sudoku Squares and Chromatic Polynomials by Agnes M. Herzberg and
+// M. Ram Murty, Notices of the AMS, Vol. 54, No. 6 (June/July 2007), 
+// available at http://www.ams.org/notices/200706/tx070600708p.pdf
+//
+// My sudoku.c finds the same solution as on p712.
+//
+
+  9 - 6   - 7 -   4 - 3
+  - - -   4 - -   2 - -
+  - 7 -   - 2 3   - 1 -
+                      
+  5 - -   - - -   1 - -
+  - 4 -   2 - 8   - 6 -
+  - - 3   - - -   - - 5
+                      
+  - 3 -   7 - -   - 5 -
+  - - 7   - - 5   - - -
+  4 - 5   - 1 -   7 - 8
+

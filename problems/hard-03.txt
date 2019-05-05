@@ -1,0 +1,70 @@
+// hard-03.txt
+//
+// From http://www.sudokusolver.co.nr/
+//
+// Top 10 Hardest Ever Solved-Sudoku:  #3
+//
+// Solved in 706,195  tries - with 706,131  wrong steps
+// (within 93,890 milli seconds = ~94 sec = ~1.6 min)
+//
+// Wednesday, July 29, 2009 8:52:13 AM 
+//
+// My sudoku solver finds a solution in less than 1 second.  Preprocessing 
+// placed 11 values.  The number of unstackings is 727,091.
+//
+// cat /proc/cpuinfo shows this processor:
+//
+//     Intel(R) Core(TM)2 Quad CPU    Q9550  @ 2.83GHz
+//
+// There are 4 cores, but no threading or other multiprocessing is done by 
+// the program, so only 1 core is doing the work.
+//
+// Here is the solution found, which is NOT identical to the solution found 
+// by the website.
+//
+//   3 7 8   6 5 4   9 2 1 
+//   2 6 9   1 7 3   4 8 5 
+//   4 1 5   8 2 9   3 6 7 
+// 
+//   1 3 2   5 6 7   8 9 4 
+//   7 5 4   2 9 8   1 3 6 
+//   8 9 6   4 3 1   7 5 2 
+// 
+//   5 4 1   9 8 2   6 7 3 
+//   9 2 3   7 1 6   5 4 8 
+//   6 8 7   3 4 5   2 1 9 
+// 
+// statistics
+//   original board
+//     number of occupied squares:         17
+//     number of empty squares:            64
+//     total number of squares:            81
+//     sum of no. candidates              304
+//   preprocessing
+//     number of only-one candidates:       0
+//     number of row optimizations:         7
+//     number of column optimizations:      3
+//     number of subsquare optimizations:   1
+//     total number of optimizations:      11
+//   after optimization
+//     number of occupied squares:         28
+//     number of empty squares:            53
+//     total number of squares:            81
+//     sum of no. candidates              226
+//   backtracking
+//     number of unstackings:         727,091
+//
+// Here is the initial problem:
+
+  - - -   - - -   - - -
+  - - -   - - 3   - 8 5
+  - 1 -   - 2 -   - - -
+                      
+  - - -   5 - 7   - - -
+  - - 4   - - -   1 - -
+  - 9 -   - - -   - - -
+                      
+  5 - -   - - -   - 7 3
+  - 2 -   - 1 -   - - -
+  - - -   - 4 -   - - 9
+

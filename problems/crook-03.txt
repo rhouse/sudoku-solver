@@ -1,0 +1,23 @@
+// crook-03.txt
+//
+// From p463, Figure 6, Will Shortz's puzzle 301:  Beware!  Very Challenging.
+//
+// From A Pencil-and-Paper Algorithm for Solving Sudoku Puzzles by J.F. Crook,
+// Notices of the AMS, Vol. 56, No. 4 (April 2009), available at
+// http://www.ams.org/notices/200904/tx090400460p.pdf
+//
+// My sudoku.c produces the same answer as on p465 of the article. 
+//
+
+  - 3 9   5 - -   - - -
+  - - -   8 - -   - 7 -
+  - - -   - 1 -   9 - 4
+                      
+  1 - -   4 - -   - - 3
+  - - -   - - -   - - -
+  - - 7   - - -   8 6 -
+                      
+  - - 6   7 - 8   2 - -
+  - 1 -   - 9 -   - - 5
+  - - -   - - 1   - - 8
+

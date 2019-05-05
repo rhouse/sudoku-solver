@@ -1,0 +1,23 @@
+// crook-02.txt
+//
+// From p463, footnote.  This puzzle has exactly two solutions.  It was solved
+// by Thomas Synder, winner of the 2007 World Sudoku Championship in Prague.
+//
+// From A Pencil-and-Paper Algorithm for Solving Sudoku Puzzles by J.F. Crook,
+// Notices of the AMS, Vol. 56, No. 4 (April 2009), available at
+// http://www.ams.org/notices/200904/tx090400460p.pdf
+//
+
+
+  - 5 -   - 2 -   - 3 -
+  2 - -   - - 1   7 - 8
+  4 - 7   6 - -   - - -
+                      
+  - - -   - - 5   - - -
+  5 2 -   - - -   - 4 7
+  - - -   7 - -   - - -
+                      
+  - - -   - - 3   5 - 4
+  3 - 6   5 - -   - - 1
+  - 9 -   - 7 -   - 6 -
+

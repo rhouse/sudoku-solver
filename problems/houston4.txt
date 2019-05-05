@@ -1,0 +1,19 @@
+// houston4.txt
+//
+// From Southwest's in-flight magazine on the way home from Houston.
+//
+// Rated:  Hard
+//
+// 2007 Sep 9
+
+  - - -   3 - -   4 - -
+  - - 8   - 6 -   - 2 -
+  - 9 -   - - 7   - - 1
+                      
+  2 - -   7 - -   1 - -
+  - 8 -   - 3 -   - 9 -
+  - - 4   - - 1   - - 5
+                      
+  4 - -   5 - -   - 7 -
+  - 5 -   - 1 -   3 - -
+  - - 2   - - 8   - - -
