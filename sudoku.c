@@ -29,9 +29,7 @@
     #include <inttypes.h>
 #else
     // Microsoft can't be bothered with standards
-    // Note that the following will not work on all platforms; in some cases
-    // "llu" might be needed; this is one reason we need inttypes.h
-    #define PRIu64 "lu"
+    #define PRIu64 I64u
 #endif
 
 /*
