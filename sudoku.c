@@ -29,7 +29,7 @@
     #include <inttypes.h>
 #else
     // Microsoft can't be bothered with standards
-    #define PRIu64 I64u
+    #define PRIu64 "I64u"
 #endif
 
 /*
