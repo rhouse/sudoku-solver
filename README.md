@@ -8,8 +8,8 @@ The following file structure is used:
       solutions         Directory of solutions to the example puzzles
       c                 Script to compile the solver on GNU/Linux
       c.bat             Batch file to compile the solver on Windows
-      license.txt       An MIT license for the sudoku solver
-      README            The file you are now reading
+      LICENSE           An MIT license for the sudoku solver
+      README.md         The file you are now reading
       sudoku.c          Source code for the sudoku solver
       sudoku.exe        Executable for Windows 
       t                 Script to solve all puzzles in the problems directory  
